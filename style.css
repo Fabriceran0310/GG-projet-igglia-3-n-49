@@ -1,0 +1,35 @@
+
+#body{
+	background: url("./Jeu.jpeg");
+	background-size: contain;
+}
+input{
+	width : 80px;
+	height : 80px;
+	background: white;
+}
+input[type = 'button']{
+	border-radius: 45px;
+	margin: 25px;
+}
+.Centrage{
+	margin:1% 25%;
+	position: absolute;
+	background: rgba(255, 255, 0, 0.635);
+	/*transform: translate(25%,25%);*/
+	left: 0;
+	right: 0;
+}
+table[id = "tab_morp"]{
+	width: 400px;
+	background: rgba(0, 0, 0, 0.684);
+	margin:2% 15%;
+}
+table[id="tb_score"]{
+	text-align: center;
+	width: 400px;
+	margin:2% 15%;
+}
+table[id="tb_score"] td{
+	width: 50%;
+}
